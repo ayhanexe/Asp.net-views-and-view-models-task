@@ -1,0 +1,13 @@
+﻿@using aspnet_view_models.models
+@model List<DrugType>
+
+    
+
+<ul>
+    @foreach(var drugType in Model as List<DrugType>)
+    {
+        <li>
+            <span>Type: @drugType.Type</span>
+        </li>
+    }
+</ul>

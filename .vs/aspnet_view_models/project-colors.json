@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "af6f1491-bb1b-402b-83ee-4de05411b892": {
+      "ProjectGuid": "af6f1491-bb1b-402b-83ee-4de05411b892",
+      "DisplayName": "aspnet_view_models",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

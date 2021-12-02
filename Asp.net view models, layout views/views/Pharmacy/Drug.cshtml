@@ -1,0 +1,24 @@
+﻿@using aspnet_view_models.models
+@using aspnet_view_models.ViewModels
+@model PharmacyDrugViewModel
+
+<ul>
+    @foreach(var drug in Model.Drugs as List<Drug>)
+    {
+        <li>
+            <span>Name: @drug.Name</span>
+            <span>Company: @drug.Company</span>
+            <span>Price: @drug.Price</span>
+        </li>
+    }
+</ul>
+
+
+<ul>
+    @foreach(var drugType in Model.DrugTypes as List<DrugType>)
+    {
+        <li>
+            <span>Type: @drugType.Type</span>
+        </li>
+    }
+</ul>
